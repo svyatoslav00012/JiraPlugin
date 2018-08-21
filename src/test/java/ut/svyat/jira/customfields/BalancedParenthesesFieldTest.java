@@ -7,7 +7,7 @@ import org.junit.Test;
 /**
  * @since 3.5
  */
-public class BalancedParenthesesFieldTest {
+public class BalancedParenthesesFieldTest{
 
     @Before
     public void setup() {

@@ -18,9 +18,11 @@
     <resource type="download" name="images/" location="/images"/>
     <context>JiraPlugin</context>
   </web-resource>
+
   <customfield-type name="Balanced Parentheses Field" i18n-name-key="balanced-parentheses-field.name" key="balanced-parentheses-field" class="svyat.jira.customfields.BalancedParenthesesField">
     <description key="balanced-parantheses-field.description">The Balanced Parantheses Field Plugin</description>
     <resource name="view" type="velocity" location="/templates/customfields/balanced-parentheses-field/view.vm"/>
     <resource name="edit" type="velocity" location="/templates/customfields/balanced-parentheses-field/edit.vm"/>
   </customfield-type>
+
 </atlassian-plugin>
